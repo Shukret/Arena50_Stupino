@@ -751,6 +751,23 @@
     </div>
   </div>
 
+  <script type="text/javascript" src="js/script3.js"></script>
+<script type="text/javascript" src="js/jquery.toast.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+
+$('#champ-table .js-app-champ-groups-navigator input').on('click', function(e) {
+    var group = parseInt($(this).val());
+    $('#champ-table .js-app-champ-group').hide();
+    $('#champ-table .js-app-champ-group-'+group).show();
+});
+
+var matches = location.hash.match(/^#group(\d)$/);
+if (matches != null) {
+    $('#champ-table .js-app-champ-groups-navigator input[value='+matches[1]+']').trigger('click');
+}
+  
   <footer>
     <div class="container">
       <div class="row space-between">
