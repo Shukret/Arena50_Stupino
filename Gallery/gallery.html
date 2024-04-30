@@ -32,6 +32,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    <style>
+        .galleria{ width: 700px; height: 400px; background: #000 }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="galleria/galleria-1.4.min.js"></script>
 </head>
 <body>
 <header>
@@ -59,7 +65,16 @@
 <div class="container tables" id="champ-page">
     <h1>ФОТО С МЕРОПРИЯТИЙ</h1>
     
-    
+    <div class="galleria">
+        <img src="im/1.png">
+        <img src="im/2.png">
+        <img src="im/3.png">
+    </div>
+
+    <script>
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+    </script>
 
 
 <footer>
