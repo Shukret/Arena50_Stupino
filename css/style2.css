@@ -1,0 +1,105 @@
+.error {
+    color: #FFC1C1;
+    display: block;
+    margin: -5px 0 10px;
+}
+
+.error-block {
+    background: rgba(213,104,79,1);
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.success-block {
+    background: #2cb200;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.hide-arrow {
+    background: none!important;
+}
+
+#champ-table .radio-container label {
+    padding: 0.25em 1em;
+}
+
+@media screen and (max-width: 900px) {
+    #champ-table .radio-container label {
+        padding: 0.25em 0.75em;
+    }
+}
+
+#champ-table .radio-container {
+    font-size: 1.5em;
+}
+
+#champ-table .radio-container.small {
+    font-size: 1.25em;
+}
+
+#champ-table th,
+#champ-table td {
+    padding: 1em;
+}
+
+#champ-page .tt-btn {
+    padding: 0.25em 1em;
+}
+
+#champ-page > h1 {
+    text-align: center;
+}
+
+.tables .tours table a {
+    text-decoration: none;
+    color: #000;
+}
+
+#pager.pagination a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#pager.pagination a.active {
+    color: #FF5E00;
+}
+
+.docs > div {
+    padding: 0 2em;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.player-match-stat-link {
+    background-color: transparent;
+    padding: 0 2em 0 1em;
+    background-image: url(../images/select_arrow_orange.svg);
+    background-repeat: no-repeat;
+    background-position: right 0.75em center;
+    background-size: 1em auto;
+    border: 2px solid #FF5E00;
+    color: rgba(0, 0, 0, 0.72);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.player-match-stat-link.active {
+    background-image: url(../images/select_arrow_reversed_orange.svg);
+}
+
+#player-champ-stat .tt img,
+#player-matches .tt img {
+    height: 1.5em;
+}
